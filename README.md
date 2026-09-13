@@ -2,7 +2,7 @@
 
 > 15 production-tested Claude Agent Skills for marketing analytics, campaign management, and agency operations across Google Ads, Meta Ads, GA4, and Search Console.
 
-These skills are designed to be used alongside the **[1ClickReport MCP server](https://github.com/1clickreport/mcp)** — Claude automatically invokes the right skill based on your prompt, then uses 1ClickReport's 40 MCP tools to fetch real data from your connected ad accounts.
+These skills are designed to be used alongside the **[1ClickReport MCP server](https://github.com/1clickreport/mcp)** — Claude automatically invokes the right skill based on your prompt, then uses 1ClickReport's 75 MCP tools to fetch real data from your connected ad accounts.
 
 ## What is a Claude Agent Skill?
 
@@ -14,36 +14,36 @@ Skills are **modular capabilities that extend Claude's functionality**. Each ski
 
 | Skill | Triggers when user asks about |
 |---|---|
-| **[agency-account-audit](agency-account-audit/SKILL.md)** | Multi-platform account audit, account health check, full marketing review |
-| **[agency-budget-optimizer](agency-budget-optimizer/SKILL.md)** | Budget allocation across channels, where to spend, shifting spend |
-| **[agency-client-report](agency-client-report/SKILL.md)** | Client reports, monthly/weekly summaries, executive performance summaries |
-| **[agency-search-term-optimizer](agency-search-term-optimizer/SKILL.md)** | Wasted spend, search term analysis, negative keyword opportunities |
-| **[agency-weekly-review](agency-weekly-review/SKILL.md)** | Weekly check-ins, "what happened this week", Monday performance reviews |
+| **[agency-account-audit](skills/agency-account-audit/SKILL.md)** | Multi-platform account audit, account health check, full marketing review |
+| **[agency-budget-optimizer](skills/agency-budget-optimizer/SKILL.md)** | Budget allocation across channels, where to spend, shifting spend |
+| **[agency-client-report](skills/agency-client-report/SKILL.md)** | Client reports, monthly/weekly summaries, executive performance summaries |
+| **[agency-search-term-optimizer](skills/agency-search-term-optimizer/SKILL.md)** | Wasted spend, search term analysis, negative keyword opportunities |
+| **[agency-weekly-review](skills/agency-weekly-review/SKILL.md)** | Weekly check-ins, "what happened this week", Monday performance reviews |
 
 ### Cross-channel strategy (1 skill)
 
 | Skill | Triggers when user asks about |
 |---|---|
-| **[cross-channel-budget-optimizer](cross-channel-budget-optimizer/SKILL.md)** | Google Ads vs Meta Ads spend mix, channel-level budget decisions |
+| **[cross-channel-budget-optimizer](skills/cross-channel-budget-optimizer/SKILL.md)** | Google Ads vs Meta Ads spend mix, channel-level budget decisions |
 
 ### Google Ads (4 skills)
 
 | Skill | Triggers when user asks about |
 |---|---|
-| **[google-ads-audit](google-ads-audit/SKILL.md)** | Google Ads account audit, 7-category scoring, "what's wrong with my ads" |
-| **[google-ads-bidding-strategist](google-ads-bidding-strategist/SKILL.md)** | Smart Bidding strategy, manual CPC vs target CPA vs target ROAS choice |
-| **[google-ads-campaign-builder](google-ads-campaign-builder/SKILL.md)** | Building a new Google Ads campaign from scratch with proper structure |
-| **[google-ads-keyword-researcher](google-ads-keyword-researcher/SKILL.md)** | Keyword research, search volume, keyword opportunities for Ads or SEO |
+| **[google-ads-audit](skills/google-ads-audit/SKILL.md)** | Google Ads account audit, 7-category scoring, "what's wrong with my ads" |
+| **[google-ads-bidding-strategist](skills/google-ads-bidding-strategist/SKILL.md)** | Smart Bidding strategy, manual CPC vs target CPA vs target ROAS choice |
+| **[google-ads-campaign-builder](skills/google-ads-campaign-builder/SKILL.md)** | Building a new Google Ads campaign from scratch with proper structure |
+| **[google-ads-keyword-researcher](skills/google-ads-keyword-researcher/SKILL.md)** | Keyword research, search volume, keyword opportunities for Ads or SEO |
 
 ### Meta Ads (5 skills)
 
 | Skill | Triggers when user asks about |
 |---|---|
-| **[meta-ads-audit](meta-ads-audit/SKILL.md)** | Meta Ads account audit (75-point framework), Facebook Ads health check |
-| **[meta-ads-audience-strategist](meta-ads-audience-strategist/SKILL.md)** | Meta targeting strategy in the Advantage+ era, audience planning |
-| **[meta-ads-budget-allocator](meta-ads-budget-allocator/SKILL.md)** | Meta budget split, prospecting vs retargeting allocation |
-| **[meta-ads-creative-auditor](meta-ads-creative-auditor/SKILL.md)** | Creative fatigue detection, finding winning ads, creative testing plans |
-| **[meta-ads-scaling-playbook](meta-ads-scaling-playbook/SKILL.md)** | Scaling Meta campaigns without killing performance |
+| **[meta-ads-audit](skills/meta-ads-audit/SKILL.md)** | Meta Ads account audit (75-point framework), Facebook Ads health check |
+| **[meta-ads-audience-strategist](skills/meta-ads-audience-strategist/SKILL.md)** | Meta targeting strategy in the Advantage+ era, audience planning |
+| **[meta-ads-budget-allocator](skills/meta-ads-budget-allocator/SKILL.md)** | Meta budget split, prospecting vs retargeting allocation |
+| **[meta-ads-creative-auditor](skills/meta-ads-creative-auditor/SKILL.md)** | Creative fatigue detection, finding winning ads, creative testing plans |
+| **[meta-ads-scaling-playbook](skills/meta-ads-scaling-playbook/SKILL.md)** | Scaling Meta campaigns without killing performance |
 
 ---
 

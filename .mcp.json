@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "1clickreport": {
+      "type": "http",
+      "url": "https://mcp.1clickreport.com/mcp",
+      "note": "Official 1ClickReport hosted MCP server. OAuth 2.1 with PKCE - on first connection the agent is prompted to authorize via browser. 75 tools across Google Ads, Meta Ads, GA4, Search Console, Shopify, Stripe and WordPress. Server docs: https://github.com/1clickreport/mcp"
+    }
+  }
+}
